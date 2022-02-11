@@ -29,14 +29,33 @@ button {
     font-size: 25px;
     color: white;
     text-shadow: 0 2px 5px black;
-    background: linear-gradient(to top, #696969, #575757);
     border-color: 2px solid black;
     border-radius: 7px;
     box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
 }
 
-button:hover {
+.default-button {
+    background: linear-gradient(to top, #696969, #575757);
+}
+
+.default-button:hover {
     background: linear-gradient(to bottom, #696969, #575757);
+}
+
+.start-button {
+    background: linear-gradient(to top, #215824, #2c502b); 
+}
+
+.start-button:hover {
+    background: linear-gradient(to bottom, #215824, #2c502b); 
+}
+
+.stop-button {
+    background: linear-gradient(to top, #7a2f2f, #502b2b); 
+}
+
+.stop-button:hover {
+    background: linear-gradient(to bottom, #7a2f2f, #502b2b); 
 }
 
 button:active {
